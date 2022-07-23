@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'A.Hayat.01';
+}
+@font-face {
+    font-family:'A.Hayat.01' ;
+    src: url('fonts/A.Hayat.01.ttf');
+}
+.backGround{
+    background-image: linear-gradient(to bottom , #EC8B5E,#3B3C36);
+    height: 100vh;
+}
+.container{
+    width: 85%;
+    padding-top: 50px;
+    margin: auto;
+}
+.container span , i{
+    font-size: 40px;
+    color: snow;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+.input-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,1fr);
+}
+.container label{
+    color: snow;
+    font-size: 30px;
+    text-align: center;
+}
+input{
+    width: 90%;
+    outline: none;
+    border: none;
+    margin: auto;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: cursive;
+    caret-color: #EC8B5E;
+}
+.btn{
+    background-color:#3B3C36;
+    color: #EC8B5E;
+    text-transform: capitalize;
+    padding: 10px 5px;
+    outline: none;
+    border: none;
+    width: 15%;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 50px  auto 0;
+    font-family: cursive;
+    transition: all 0.3s ease-in;
+    font-size: 16px;
+}
+.btn:hover{
+    color: snow;
+    box-shadow: 0 0 10px snow;
+}
+.slideBar{
+    width: 45%;
+    margin: auto;
+    overflow: hidden;
+}
+.slide{
+    position: relative;
+    margin: 20px 0 0 0;
+    border-radius: 8px;
+}
+.slide img{
+    border-radius: 8px;
+    box-shadow: 0 0 10px #3B3C36 ;
+}
+.slide{
+    display: none;
+}
+.slide.active{
+    display: block;
+}
+.slide.hide{
+    display: none;
+}
+a{
+    color: snow;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.prev{
+    position: absolute;
+    top: 67%;
+    left: 25%;
+}
+.next{
+    position: absolute;
+    top: 67%;
+    right: 25.5%;
+}
+.prev:hover{
+    color: #3B3C36;
+    
+}
+.next:hover{
+    color: #3B3C36;
+}
+.hideA{
+    display: none;
+}
+.result-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.result-container.hide{
+    height: 0;
+}
+.result-container.show{
+    height: auto;
+}
+@keyframes translate-txt{
+    0%{
+        transform: translateY(100px);
+        opacity: 0.2;
+    }
+    50%{
+        transform: translateY(50px);
+        opacity: 0.6;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.txtBox{
+    width: 30%;
+    height: auto;
+    margin: 150px 0px;
+    
+    position: relative;
+}
+.txtAnimation{
+    animation: translate-txt 1s ease-in alternate ;
+}
+#cityOutput{
+    font-size: 20px;
+    color: snow;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+#desc{
+    font-size: 15px;
+    color: snow;
+    font-family: cursive;
+}
+#k-temp{
+    font-size: 15px;
+    color: snow;
+    font-family: cursive;
+}
+#c-temp{
+    font-size: 15px;
+    color: snow;
+    font-family: cursive;
+}
+@keyframes translate-img{
+    0%{
+        transform: translateY(100px);
+        opacity: 0.2;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.imgBox{
+    width: 30%;
+    height: auto;
+    margin: 120px 0px;
+    padding-left: 100px;
+    position: relative;
+    
+    transition: all 0.5s ease-in;
+}
+.imgAnimation{
+    animation: translate-img 1s ease-in;
+}
+.imgBox img{
+    width: 55%;
+    position: relative;
+}

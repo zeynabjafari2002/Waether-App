@@ -1,0 +1,202 @@
+@media screen and (min-width:340px){
+    .container span , i{
+        font-size: 25px;
+    }
+    .input-box{
+        padding-top: 20px;
+    }
+    .container label{
+        font-size: 20px;
+    }
+    .btn{
+        padding:8px 15px;
+        font-size: 14px;
+        width: auto;
+    }
+    .slideBar{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .slide img{
+        width: 100%;
+    }
+    .secondImg{
+        height: 300px;
+    }
+    .prev{
+        top: 65%;
+        left: 1%;
+        font-size: 20px;
+    }
+    .next{
+        top: 65%;
+        right: 1%;
+        font-size:20px
+    }
+    .result-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #desc , #cityOutput , #k-temp , #c-temp{
+        font-size: 14px;
+        text-align: left;
+    }
+    .imgBox{
+        width: 60%;
+        margin-top: 120px;
+    }
+    .imgBox img{
+        width: 100%
+    }
+}
+@media screen and (min-width:576px){
+    .container span , i{
+        font-size: 25px;
+    }
+    .input-box{
+        padding-top: 20px;
+    }
+    .container label{
+        font-size: 20px;
+    }
+    .btn{
+        padding:8px 15px;
+        font-size: 14px;
+        width: auto;
+    }
+    .slideBar{
+        width: 75%;
+    }
+    .prev{
+        top: 69%;
+        left: 5%;
+        font-size: 28px;
+    }
+    .next{
+        top: 69%;
+        right: 5%;
+        font-size: 28px;
+    }
+    .result-container{
+        display: flex;
+        justify-content: center
+    }
+    #desc , #cityOutput , #k-temp , #c-temp{
+        font-size: 15px;
+    }
+    .imgBox{
+        width: 40%;
+        margin-top: 100px;
+    }
+}
+@media screen and (min-width:768px){
+    .container span , i{
+        font-size: 30px;
+    }
+    .container label{
+        font-size: 25px;
+    }
+    .btn{
+        padding:12px 30px;
+        font-size: 15px;
+    }
+    .slideBar{
+        width: 60%;
+        margin-top: 20px;
+    }
+    .prev{
+        top: 69%;
+        left: 15%;
+        font-size: 28px;
+    }
+    .next{
+        top: 69%;
+        right: 15%;
+        font-size: 28px;
+    }
+    .imgBox{
+        width: 40%;
+        margin-top: 60px;
+    }
+}
+@media screen and (min-width:870px){
+    .slideBar{
+        width: 55%;
+    }
+    .prev{
+        left: 19%;
+    }
+    .next{
+        right: 19%;
+    }
+}
+@media screen and (min-width:992px){
+    .container span , i{
+        font-size: 40px;
+    }
+    .container label{
+        font-size: 30px;
+    }
+    .slideBar{
+        width: 48%;
+        margin-top: 0px;
+    }
+    .btn{
+        padding:12px 40px;
+        font-size: 16px;
+    }
+    .prev{
+        left: 23%;
+    }
+    .next{
+        right: 23%;
+    }   
+    .imgBox{
+        width: 30%;
+        margin-top: 100px;
+    }
+}
+@media screen and (min-width:1100px){
+    .slideBar{
+        width: 45%;
+    }
+    .prev{
+        left: 25%;
+    }
+    .next{
+        right: 25%;
+    } 
+    .imgBox{
+        margin-top: 80px;
+    }
+}
+@media screen and (min-width:1200px){
+    .slideBar{
+        width: 40%;
+    }
+    .prev{
+        left: 28%;
+    }
+    .next{
+        right: 28%;
+    } 
+    .imgBox{
+        width: 30%;
+        margin-top: 60px;
+    }
+}
+@media screen and (min-width:1300px){
+    .slideBar{
+        width: 35%;
+    }
+    .prev{
+        left: 30%;
+    }
+    .next{
+        right: 30%;
+    } 
+    .imgBox{
+        margin-top: 30px;
+    }
+}

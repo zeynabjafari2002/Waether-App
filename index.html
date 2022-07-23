@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <title>check weather</title>
+</head>
+<body>
+   <div class="backGround">
+    <div class="container">
+        <span>check weather</span><i class="uil uil-rainbow"></i>
+        <br>
+        <div class="input-box">
+            <label for="input">:اسم شهر مورد نظرتان را وارد کنید</label>
+        <br>
+        <input type="text" id="input" placeholder="enter the name of a city:">
+        <button id="submitBtn" class="btn">search</button>
+        </div>
+
+        <div  class="result-container">
+            <div  class="txtBox">
+                <h2 id="cityOutput"></h2>
+                <p id="desc"></p>
+                <p id="k-temp"></p>
+                <p id="c-temp"></p>
+            </div>
+            <div  class="imgBox">
+                <img class="resultImg" src="" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="slideBar">
+        <div class="slide active ">
+            <img class="photo1 photo" src="photos/1.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img class="photo photo2" src="photos/22.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img class="photo photo3" src="photos/3.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img class="photo photo4" src="photos/4.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img class="photo photo5" src="photos/5.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img class="photo photo6" src="photos/6.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img class="photo photo7" src="photos/7.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img class="photo photo8" src="photos/8.jpg" alt="">
+        </div>
+        <a href="#" class="prev">&#10094</a>
+        <a href="#" class="next">&#10095</a>
+    </div>
+   </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
